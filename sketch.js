@@ -21,7 +21,7 @@ function setup() {
   player = new Player(285, playerBase.body.position.y - 153, 50, 180)
 
   computerBase = new ComputerBase(300, random(450, height-300), 180, 150)
-  computer = new Computer(1105, computerBase.body.position.y-153, 50, 180)
+  computer = new Computer(1100, computerBase.body.position.y-153, 50, 180)
   
   
 
